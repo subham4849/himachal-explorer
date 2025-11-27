@@ -138,8 +138,8 @@ h3{
   }
 
   .navbar-brand {
-    color: #000 !important;
-    -webkit-text-stroke: 0.05px #ffffff;
+    color: #ffffff !important;
+    -webkit-text-stroke: 0.05px #000000;
     font-weight: 700;
   }
 
