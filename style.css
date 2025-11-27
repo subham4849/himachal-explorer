@@ -125,6 +125,29 @@ h3{
   background-color: darkred;
 }
 
+
+/*adding the color to the navbar*/
+/* Mobile + Tablet (Bootstrap breakpoints: max-width 991px) */
+@media (max-width: 991px) {
+  .navbar-nav .nav-link {
+    color: #000 !important;  /* Black text */
+  }
+
+  .navbar-brand {
+    color: #000 !important;  /* Also brand text black */
+  }
+
+  .navbar-toggler-icon {
+    filter: invert(1); /* Makes toggle icon black */
+  }
+}
+@media (max-width: 991px) {
+  .navbar-nav .nav-link {
+    font-weight: 600;
+  }
+}
+
+
 /* Tablet */
 @media (max-width: 992px) {
   .btsize {
