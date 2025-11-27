@@ -128,24 +128,39 @@ h3{
 
 /*adding the color to the navbar*/
 /* Mobile + Tablet (Bootstrap breakpoints: max-width 991px) */
+/* Mobile + Tablet styles (Bootstrap breakpoint up to 991px width) */
 @media (max-width: 991px) {
+
   .navbar-nav .nav-link {
-    color: #000 !important;  /* Black text */
+    color: #000 !important;          /* Black text */
+    -webkit-text-stroke: 0.05px #ffffff; /* Stroke outline */
+    font-weight: 600;                /* Optional: makes stroke clearer */
   }
 
   .navbar-brand {
-    color: #000 !important;  /* Also brand text black */
+    color: #000 !important;
+    -webkit-text-stroke: 0.05px #ffffff;
+    font-weight: 700;
   }
 
+  /* Make hamburger icon visible on light bg */
   .navbar-toggler-icon {
-    filter: invert(1); /* Makes toggle icon black */
+    filter: invert(1);
   }
 }
+
 @media (max-width: 991px) {
   .navbar-nav .nav-link {
     font-weight: 600;
   }
 }
+
+@media (max-width: 991px) {
+  .navbar-nav .nav-link {
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+  }
+}
+
 
 
 /* Tablet */
